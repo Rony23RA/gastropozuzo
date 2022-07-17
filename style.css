@@ -1,6 +1,7 @@
 body
 {
     margin: 0;
+    box-sizing: border-box;
 }
 
 *
@@ -15,7 +16,7 @@ header
     background: red;
 }
 
-main
+.main
 {
     width: 100%;
     display: flex;
@@ -24,11 +25,11 @@ main
     
 }
 
-main .receta
+.main .platoTipico
 {
 
-    width: 290px;
-    height: 150px;
+    width: 295px;
+    height: 160px;
     display: flex;
 
     /* Diseño */
@@ -48,3 +49,45 @@ main .receta
     color: white;
     text-shadow:  black 0.1em 0.1em 0.2em;
 }
+
+/* Receta */
+
+.receta
+{
+    display: grid;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.receta .titulo_receta
+{
+    text-align: center;
+    font-size: 32px;
+}
+
+
+
+.receta .inicio_receta
+{
+    display: flex;
+    width: 100%;
+}
+
+.receta .inicio_receta .ingredientes
+{
+    width: 70%;
+}
+
+.receta img
+{
+    padding: 10px;
+    width: 30%;
+    align-self: center;
+    object-fit: contain;
+}
+
