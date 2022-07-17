@@ -16,7 +16,7 @@ header
     background: red;
 }
 
-.main
+.menu
 {
     width: 100%;
     display: flex;
@@ -25,7 +25,7 @@ header
     
 }
 
-.main .platoTipico
+.menu .platoTipico
 {
 
     width: 295px;
