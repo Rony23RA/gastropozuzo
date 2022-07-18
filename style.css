@@ -14,7 +14,7 @@ body
 header
 {
     width: 100%;
-    height: 110px;
+    height: 125px;
 
     display: grid;
     
@@ -52,11 +52,15 @@ header nav ul
     justify-content: center;
     grid-template-columns: min-content min-content min-content;
     column-gap: 30px;
-    
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: underline;
+}
+
+header nav ul a
+{
+    color: white;
 }
 
 .menu
