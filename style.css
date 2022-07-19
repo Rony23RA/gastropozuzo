@@ -134,6 +134,51 @@ main .platos_tipicos h1
     margin-bottom: 30px;
 }
 
+/* Plato tipico */
+
+main .titulo_plato
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+main .ingredientes h2
+{
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+main .ingredientes ul
+{
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+
+main .preparacion h2
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+main .preparacion p
+{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* GatroPozuzo */
 
 footer .gastropozuzo
@@ -164,6 +209,6 @@ footer .gastropozuzo p
 @media (min-width: 500px) {
     main
     {
-        padding: 0 80px;
+        padding: 0 100px;
     }
 }
