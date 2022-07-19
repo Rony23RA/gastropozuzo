@@ -1,0 +1,169 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+header
+{
+    width: 100%;
+    height: 90px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+header nav
+{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+header nav .logo
+{
+    justify-self: center;
+    align-self: center;
+    padding-left: 10px;
+}
+
+header nav .logo img
+{
+    width: 65px;
+    object-fit: cover;
+}
+
+nav .elementos 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+nav .elementos .item
+{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background-color: #d81d39;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+}
+
+nav .elementos .item span
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #FFFF;
+}
+
+
+
+/* MAIN */
+
+main .info 
+{
+    padding-top: 30px;
+    display: grid;
+    justify-content: center;
+}
+
+main .info h1
+{
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.info p
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.info img
+{
+    width: 290px;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+main .platos_tipicos h1
+{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.platos_tipicos .container
+{
+    display: grid;
+}
+
+.platos_tipicos .container .item
+{
+    width: 290px;
+    justify-self: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+
+    /* Imagen de fondo */
+    background-image:url("https://th.bing.com/th/id/OIP.j-PMJOUJHWiZ6CcqNCs-rwHaEK?w=327&h=183&c=7&r=0&o=5&pid=1.7");
+    background-repeat:no-repeat;
+    background-position:center;
+
+
+    /* Texto */
+    color: rgb(0, 0, 0);
+    text-shadow:  rgb(163, 157, 157) 0.1em 0.1em 0.2em;
+
+    text-decoration: none;
+
+    margin-bottom: 30px;
+}
+
+/* GatroPozuzo */
+
+footer .gastropozuzo
+{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+footer .gastropozuzo h1
+{
+    font-size: 32px;
+}
+footer .gastropozuzo p
+{
+    font-size: 14px;
+}
+
+
+/* Media */
+
+/* Media Query */
+
+@media (min-width: 500px) {
+    main
+    {
+        padding: 0 80px;
+    }
+}
