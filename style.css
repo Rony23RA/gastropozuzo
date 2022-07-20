@@ -72,10 +72,10 @@ main .platos_tipicos h1
 {
     text-align: center;
     font-size: 28px;
-    color: #dc1a22;
     font-weight: 900;
     margin-top: 20px;
     margin-bottom:20px;
+    color: #dc1a22;
     text-decoration: underline;
 }
 
@@ -88,7 +88,7 @@ main .platos_tipicos h1
 {
     width: 290px;
     justify-self: center;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
     padding: 10px;
     border-radius: 10px;
 
@@ -99,12 +99,18 @@ main .platos_tipicos h1
 
 
     /* Texto */
-    color: rgb(0, 0, 0);
+    color: black;
     text-shadow:  rgb(163, 157, 157) 0.1em 0.1em 0.2em;
 
     text-decoration: none;
 
     margin-bottom: 30px;
+}
+
+.platos_tipicos .container .item h3
+{
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 /* Plato tipico */
@@ -138,6 +144,12 @@ main .preparacion p
 {
     margin-left: 10px;
     margin-bottom: 20px;
+}
+
+main .imagenes_recetas img
+{
+    width: 100%;
+    margin-top: 20px;
 }
 
 
