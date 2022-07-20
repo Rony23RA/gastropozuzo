@@ -111,6 +111,7 @@ main .platos_tipicos h1
 {
     margin-bottom: 10px;
     text-decoration: underline;
+    color: #dc1a22;
 }
 
 /* Plato tipico */
@@ -120,12 +121,17 @@ main .titulo_plato
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
+    color: #dc1a22;
+    text-decoration: underline;
 }
 
 main .ingredientes h2
 {
     margin-left: 10px;
     margin-bottom: 15px;
+    color: #dc1a22;
+    text-decoration: underline;
+    
 }
 
 main .ingredientes ul
@@ -138,6 +144,8 @@ main .preparacion h2
 {
     margin-left: 10px;
     margin-bottom: 10px;
+    color: #dc1a22;
+    text-decoration: underline;
 }
 
 main .preparacion p
