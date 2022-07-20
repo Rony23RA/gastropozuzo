@@ -57,6 +57,8 @@ main .info h1
     text-align: center;
     font-weight: bold;
     font-size: 16px;
+    text-align: justify;
+    margin: 0 10px;
     margin-bottom: 30px;
 }
 
@@ -114,6 +116,11 @@ main .platos_tipicos h1
     color: #dc1a22;
 }
 
+.platos_tipicos .container .item img
+{
+    width: 265px;
+}
+
 /* Plato tipico */
 
 main .titulo_plato
@@ -151,8 +158,9 @@ main .preparacion h2
 main .preparacion p
 {
     margin-left: 10px;
-    margin-bottom: 20px;
-}
+    text-align: justify;
+    margin: 0 10px;
+}   
 
 main .imagenes_recetas img
 {
